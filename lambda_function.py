@@ -7,7 +7,7 @@ from datetime import datetime
 s3_client = boto3.client('s3')
 
 # S3 bucket and folder for storing transformed data
-S3_BUCKET_NAME = 'your-s3-bucket-name'
+S3_BUCKET_NAME = 'ijazbucket'
 S3_TRANSFORMED_FOLDER = 'transformed-data/'
 
 def lambda_handler(event, context):
